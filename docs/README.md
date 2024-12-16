@@ -49,7 +49,7 @@ graph TD
   B --> |Model| F[Format Consistency]
   B --> |UPC| G[12-13 Digit Numeric]
   B --> |LOCATION| H[Store Layout Format]
-  B --> |Picks| I[Numeric Value (Items to Send)]
+  B --> |Picks| I[Numeric Value]
   B --> |Needs| J[Needs = Available - Picks]
   B --> |Available| K[Numeric Value (Empty Spots)]
   B --> |Status| L[Predefined Status List]
