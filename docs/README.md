@@ -45,7 +45,7 @@ graph TD
     A[Data Input] --> B{Field Validation}
     B --> |DetailTV| C[Text Description Check]
     B --> |Bands TV| D[Predefined Brand List]
-    B --> |Size| E[Numeric Range 20-85]
+    B --> |Size| E[Numeric Range 20-98]
     B --> |Model| F[Format Consistency]
     B --> |UPC| G[12-13 Digit Numeric]
     B --> |LOCATION| H[Store Layout Format]
