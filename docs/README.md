@@ -38,3 +38,16 @@ graph TD
     A[Staff Mobile Device] -->|Data Entry| B[AppSheet Mobile App]
     B -->|Sync| C[Google Sheets Database]
     C -->|Store Management| D[Inventory Tracking System]
+
+graph TD
+    A[Data Input] --> B{Field Validation}
+    B --> |DetailTV| C[Text Description Check]
+    B --> |Bands TV| D[Predefined Brand List]
+    B --> |Size| E[Numeric Range 20-85]
+    B --> |Model| F[Format Consistency]
+    B --> |UPC| G[12-13 Digit Numeric]
+    B --> |LOCATION| H[Store Layout Format]
+    B --> |Picks| I[Priority Ranking]
+    B --> |Needs| J[Predefined Needs List]
+    B --> |Available| K[Boolean/Yes-No]
+    B --> |Status| L[Predefined Status List]
