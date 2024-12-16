@@ -51,7 +51,7 @@ graph TD
   B --> |LOCATION| H[Store Layout Format]
   B --> |Picks| I[Numeric Value]
   B --> |Needs| J[Needs = Available - Picks]
-  B --> |Available| K[Numeric Value (Empty Spots)]
+  B --> |Available| K[Numeric Value]
   B --> |Status| L[Predefined Status List]
 ```
 
