@@ -60,5 +60,5 @@ Retailers frequently encounter inventory challenges, particularly in electronics
 
 
 ## Contact
-thunnathorn@gmail.com
+thunnathorne@gmail.com
 Thunnathorne
