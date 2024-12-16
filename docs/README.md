@@ -38,7 +38,9 @@ graph TD
     A[Staff Mobile Device] -->|Data Entry| B[AppSheet Mobile App]
     B -->|Sync| C[Google Sheets Database]
     C -->|Store Management| D[Inventory Tracking System]
+```
 
+```mermaid
 graph TD
     A[Data Input] --> B{Field Validation}
     B --> |DetailTV| C[Text Description Check]
